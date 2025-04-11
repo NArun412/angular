@@ -1,0 +1,15 @@
+  <header class="main-header">
+    <nav>
+      <ul class="menu">
+        <li routerLink="/"><a>Home</a></li>
+        <li class="has-submenu" (mouseenter)="showSub = true" (mouseleave)="showSub = false">
+          <a href="#">Data Handling ▼</a>
+          <ul class="submenu" *ngIf="showSub">
+            <li routerLink="/DataBinding"><a>Data Binding</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  

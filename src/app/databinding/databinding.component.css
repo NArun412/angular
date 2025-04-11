@@ -1,0 +1,26 @@
+.center-box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    height: 300px;
+    background-color: #f9f9f9;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    margin: auto;
+    padding: 2rem;
+    text-align: left;
+  }
+
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .question {
+    font-weight: 700;
+  }
+
+  .answer {
+    font-weight: 500;
+  }
